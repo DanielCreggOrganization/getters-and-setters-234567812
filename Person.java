@@ -31,7 +31,12 @@ public class Person {
         this.middleNames = middleNames.split(" "); //split use with array
     }
     public void setUserName(String userName){
-        this.userName = userName;
+        if(userName.length() > 10){ //sets maximum characters to 10 for user name
+            this.userName = userName.substring(0, 10); 
+        }else{
+            this.userName = userName;
+        }
+        
     }
 
     

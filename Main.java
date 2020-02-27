@@ -12,7 +12,7 @@ public class Main {
        System.out.print(personObject2.getMiddleNames());
 
        Person personObject3 = new Person();
-       personObject3.setUserName("K.");
+       personObject3.setUserName("KasiaKrakowska ");
        System.out.print(personObject3.getUserName());
 
 }
